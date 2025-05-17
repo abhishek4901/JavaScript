@@ -1,7 +1,7 @@
  let n = prompt("Enter a number:");
 console.log("You entered:", n);
  
- function checkEvenodd  (n) {
+ function checkEvenodd (n) {
     if (n%2==0)
        {
          console.log('number is even')
