@@ -9,5 +9,5 @@ console.log("You entered:", n);
     else 
     console.log('number is odd')
    
-}
+} 
     checkEvenodd(n);
