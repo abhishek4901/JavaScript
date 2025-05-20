@@ -2,52 +2,14 @@
 <html>
 <head>
   <title>Random Number Generator</title>
-  <style>
-    .generatedNumber {
-      width: 200px;
-      height: 200px;
-      border: 2px solid black;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 30px;
-      font-weight: bold;
-      margin-bottom: 10px;
-    }
-    p {
-      font-size: 20px;
-      font-weight: bold;
-    }
-    button {
-      padding: 10px 20px;
-      font-size: 16px;
-      font-weight: bold;
-      cursor: pointer;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
+ 
 </head>
 <body>
 
   <div class="generatedNumber"></div>
   <p></p>
   <button id="generateButton">Generate New Number</button>
-
-  <script>
-    let div = document.querySelector('.generatedNumber');
-    let p = document.querySelector('p');
-    let button = document.querySelector('#generateButton');
-
-    function generateRandomNumber() {
-      // Generate random number between 1 and 100
-      let randomNumber = Math.floor(Math.random() * 1000) + 100;
-
-      // Display the random number
-  
-      div.innerText = randomNumber;
-    }
-    // Add event listener to the button
-    button.addEventListener('click', generateRandomNumber);
-  </script>
-
+  <script src="home.js"></script>
 </body>
 </html>
