@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Text Color</title>
+</head>
+<body>
+
+    <h1 id="myText">This is some text!</h1>
+
+    <!-- Button to trigger the color change -->
+    <button onclick="changeColor()">Change Text Color</button>
+
+    <script>
+        // Function to change the text color
+        function changeColor() {
+            // Get the element by its ID
+            var textElement = document.getElementById('myText');
+            
+            // Change the color of the text
+            textElement.style.color = "red";  // You can change "blue" to any color or hex value
+        }
+    </script>
+
+</body>
+</html>
