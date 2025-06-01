@@ -6,7 +6,7 @@ console.log("You entered:", n);
        {
          console.log('number is even')
        }
-    else 
+    else  
     console.log('number is odd') 
    
 } 
