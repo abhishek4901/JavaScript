@@ -9,7 +9,7 @@ function countAlphabetOccurrence(word) {
   for (let char of word) {
     if (char >= 'a' && char <= 'z') {
       frequency[char] = (frequency[char] || 0) + 1;
-    }
+    } 
   }
 
   console.log("Alphabet Occurrences:");
