@@ -3,8 +3,7 @@
     let button = document.querySelector('#generateButton');
 
     function generateRandomNumber() {
-      // Generate random number between 1 and 100
-      let randomNumber = Math.floor(Math.random() * 1000) + 100;
+      let randomNumber = Math.floor(Math.random() * 100) + 100;// 100 to 200 only random number
 
       // Display the random number
   
