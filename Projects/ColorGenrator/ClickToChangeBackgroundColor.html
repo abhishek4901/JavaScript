@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Change Background Color On Click</title>
+    <style>
+        body {
+            transition: background-color 0.1s ease;
+        }
+        h1 {
+            transition: color 0.1s ease;
+        }
+        button {
+           
+            padding: 10px 20px;
+
+            
+        }
+        body, h1 {
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="colorText">Click the button to change background and text color!</h1>
+    <script>
+        // Create a button to change background and text color
+        window.addEventListener('DOMContentLoaded', function() {
+            const button = document.createElement('button');
+            button.textContent = "Change Background Color";
+            document.body.appendChild(button);
+
+            // Function to generate a random color
+            function getRandomColor() {
+                const letters = '0123456789ABCDEF';
+                let color = '#';
+                for (let i = 0; i < 6; i++) {
+                    color += letters[Math.floor(Math.random() * 16)];
+                }
+                return color;
+            }
+
+            // Add click event to button
+            button.addEventListener('click', function() {
+                const bgColor = getRandomColor();
+                document.body.style.backgroundColor = bgColor;
+                // Change the text color to the same as background
+                document.getElementById('colorText').style.color = bgColor;
+            });
+        });
+    </script>
+</body>
+</html>
