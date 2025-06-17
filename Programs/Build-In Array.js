@@ -6,7 +6,7 @@ let numbers = [10, 20, 30, 40, 50];
 numbers.forEach(function(num) { 
     console.log("Number:", num);  
 });   
-
+ 
 // 2. map: Create a new array with each value doubled
 let doubled = numbers.map(function(num) {
     return num * 2;
