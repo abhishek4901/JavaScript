@@ -5,7 +5,7 @@ let numbers = [10, 20, 30, 40, 50];
 // 1. forEach: Print each element
 numbers.forEach(function(num) { 
     console.log("Number:", num);  
-});   
+});    
  
 // 2. map: Create a new array with each value doubled
 let doubled = numbers.map(function(num) {
