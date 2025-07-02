@@ -1,13 +1,18 @@
+// That program run on console
+let a = prompt("Enter the first number:");
+let b = prompt("Enter the second number:");
 
-
-var poowerof = (a,b ) => {//pass the argument
-    console.log (a**b);
+// Power function using arrow function
+var powerof = (a, b) => {
+    console.log(`Power: ${a}^${b} = ${a ** b}`);
 }
 
-poowerof(4,2);//pass the actual argument
+powerof(a, b); // Using user input
 
-let sum = (a,b ) => {//pass the argument
-    console.log (+b);
+// Sum function using arrow function
+let sum = (a, b) => {
+    console.log(`This is sum = ${a + b}`); // Template literal use and store data in single variable
+    console.log("This is sum = ", a + b);  // there store in 2 variable
 }
 
-sum(4,2);//pass the actual argument    
+sum(a, b); // Using user input
