@@ -1,10 +1,11 @@
  let prices = [100, 200, 300, 400, 500];
 
- console.log("The original price is:");
- 
+ let i = 1;
  for (let price of prices ){
-     console.log(`The  price is: ${price}`);
+     console.log(`The original price of product number ${i} : ${price}`);
      let offer = price /10;
-    price = price - offer;
-    console.log(`The offer price is: ${price}`);
+     price = price- offer;
+     console.log(`The  after offer product  price is: ${price}`);
+  
+        i++;
  }
