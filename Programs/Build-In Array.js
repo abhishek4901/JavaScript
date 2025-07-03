@@ -3,7 +3,7 @@
 let numbers = [10, 20, 30, 40, 50];
 
 // 1. forEach: Print each element
-numbers.forEach(function(num) { 
+numbers.forEach(function(num) {  
     console.log("Number:", num);  
 });    
  
