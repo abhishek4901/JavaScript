@@ -15,4 +15,4 @@ console.log("Merged using Object.assign:", mergedObj1);
 
 // Merge the objects using spread operator(...)
 const mergedObj2 = { ...obj1, ...obj2 };
-console.log("Merged using spread operator:", mergedObj2);
+console.log("Merged using spread operator:", mergedObj2); 
