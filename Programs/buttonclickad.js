@@ -16,4 +16,4 @@ function addItem() {
         // Clear the input field
         input.value = "";
     } 
-}
+} 
