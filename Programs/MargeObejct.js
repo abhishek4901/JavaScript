@@ -6,7 +6,7 @@ const obj1 = {
  
 const obj2 = {
     city: "Mumbai",
-    country: "India" 
+    country: "India"  
 };
 
 // Merge the objects using Object.assign
