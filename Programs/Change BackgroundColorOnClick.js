@@ -1,4 +1,4 @@
-   // Create a button to change background color
+    // Create a button to change background color
 window.addEventListener('DOMContentLoaded', function() {
     const button = document.createElement('button');
     button.textContent = "Change Background Color";
