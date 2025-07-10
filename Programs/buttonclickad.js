@@ -1,4 +1,4 @@
-// This script adds an item to a list when the button is clicked
+ // This script adds an item to a list when the button is clicked
  
 function addItem() {
     // Get the value from the input field
