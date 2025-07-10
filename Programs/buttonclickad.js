@@ -5,7 +5,7 @@ function addItem() {
     var input = document.getElementById("itemInput");
     var value = input.value.trim();
  
-    if (value !== "") { 
+    if (value !== "") {  
         // Create a new list item
         var li = document.createElement("li");
         li.textContent = value;
