@@ -11,7 +11,7 @@ function addItem() {
         li.textContent = value;
 
         // Add the new item to the list
-        document.getElementById("itemList").appendChild(li);
+        document.getElementById("itemList").appendChild(li); 
 
         // Clear the input field
         input.value = "";
