@@ -8,7 +8,7 @@ numbers.forEach(function(num) {
 });    
  
 // 2. map: Create a new array with each value doubled
-let doubled = numbers.map(function(num) {
+let doubled = numbers.map(function(num) { 
     return num * 2;
 });
 console.log("Doubled:", doubled);
