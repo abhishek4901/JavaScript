@@ -8,7 +8,7 @@ console.log("You entered:", n);
          console.log('number is even') 
        } 
     else  
-    console.log('number is odd') 
+    console.log('number is odd')  
    
 } 
     checkEvenodd(n);
