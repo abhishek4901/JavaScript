@@ -1,5 +1,5 @@
  // Example: Using built-in array methods in JavaScript
-
+ 
 let numbers = [10, 20, 30, 40, 50];
 
 // 1. forEach: Print each element
