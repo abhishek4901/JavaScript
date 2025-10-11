@@ -4,7 +4,7 @@ window.addEventListener('DOMContentLoaded', function() {
     button.textContent = "Change Background Color";  
     document.body.appendChild(button);   
   
-    // Function to generate a random color    
+    // Function to generate a random color     
     function getRandomColor() {  
         const letters = '0123456789ABCDEF';    
         let color = '#';    
